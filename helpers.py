@@ -1,7 +1,7 @@
 import math
 import cv2
 
-def fix_height(imgWhite, imgSize, w, h, imgCrop):
+def FixHeight(imgWhite, imgSize, w, h, imgCrop):
      """The function adjusts the height to always be the same as the imgSize,
       gives the image of the hand to the center and returns the fixed image"""
      k = imgSize / h
@@ -11,7 +11,7 @@ def fix_height(imgWhite, imgSize, w, h, imgCrop):
      imgWhite[:, wGap:wCal + wGap] = imgResize
      return imgWhite
 
-def fix_weight(imgWhite, imgSize, w, h, imgCrop):
+def FixWeight(imgWhite, imgSize, w, h, imgCrop):
      """The function adjusts the weight to always be the same as the imgSize,
       gives the image of the hand to the center and returns the fixed image"""
      k = imgSize / w
