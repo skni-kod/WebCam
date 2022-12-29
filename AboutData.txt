@@ -1,1 +1,0 @@
-Folder "Data" w tym przypadku jest bardzo duży i zdjęcia trzeba pobrać na lokalne repozytorium.
